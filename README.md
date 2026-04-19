@@ -39,6 +39,8 @@ flowchart TD
     Cleanup --> Docker
 ```
 
+> This pipeline demonstrates a practical DevSecOps workflow where container images are continuously scanned for vulnerabilities before deployment, ensuring security is integrated early in the CI/CD lifecycle.
+
 The `Jenkinsfile` is designed for efficiency and persistence:
 1.  **Environment Setup:** Initializes persistent cache directories (`/var/lib/jenkins/.trivy`) to optimize scan speeds.
 2.  **DB Management:** Automatically handles the first-time download and subsequent updates of the Trivy Vulnerability and Java Databases.
