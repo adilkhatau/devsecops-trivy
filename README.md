@@ -40,7 +40,7 @@ environment {
 }
 ```
 
-### 📊 Sample Output
+## 📊 Sample Output
 
 When the pipeline executes, it generates a summary in the console and archives detailed reports. A typical scan results in:
 
