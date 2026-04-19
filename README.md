@@ -1,8 +1,3 @@
-# Create the README.md content based on the previous structure
-readme_content = """# 🛡️ DevSecOps Pipeline: Automated Container Security with Trivy
-
-This project demonstrates a robust **Shift-Left security** implementation using **Jenkins** and **Aqua Security's Trivy**. The pipeline automates the vulnerability scanning process for local Docker images, ensuring that only secure, audited containers move through the CI/CD lifecycle.
-
 ## 🚀 Overview
 
 In modern cloud-native development, container images often bundle outdated libraries and OS packages. This project solves that by integrating an automated security gate that:
@@ -17,6 +12,32 @@ In modern cloud-native development, container images often bundle outdated libra
 * **Environment:** Ubuntu 24.04 LTS (VirtualBox)
 
 ## 🔧 Pipeline Architecture
+
+```mermaid
+flowchart TD
+    Dev[Developer] -->|Push / Build| Docker[Docker Images]
+
+    Docker --> Jenkins[Jenkins Pipeline]
+
+    Jenkins --> Stage1[Fetch Images]
+    Stage1 --> Stage2[Trivy Scan]
+
+    Stage2 --> DB[(Trivy Vulnerability DB Cache)]
+    Stage2 --> Scan[Image Analysis]
+
+    Scan --> Report[Generate Reports]
+
+    Report --> TXT[TXT Output]
+    Report --> CSV[CSV Output]
+
+    TXT --> Artifacts[Jenkins Artifacts]
+    CSV --> Artifacts
+
+    Artifacts --> User[Download Reports]
+
+    Jenkins --> Cleanup[Cleanup Stage]
+    Cleanup --> Docker
+```
 
 The `Jenkinsfile` is designed for efficiency and persistence:
 1.  **Environment Setup:** Initializes persistent cache directories (`/var/lib/jenkins/.trivy`) to optimize scan speeds.
