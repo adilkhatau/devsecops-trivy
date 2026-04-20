@@ -1,0 +1,140 @@
+
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-42366 - busybox: A heap-buffer-overflow
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2022-32221 - curl: POST following PUT confusion
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-23914 - curl: HSTS ignored on multiple requests
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-38545 - curl: heap based buffer overflow in the SOCKS5 proxy handshake
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-42915 - curl: HTTP proxy double-free
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-42916 - curl: HSTS bypass via IDN
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-43551 - curl: HSTS bypass via IDN
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-27533 - curl: TELNET option IAC injection
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-27534 - curl: SFTP path ~ resolving discrepancy
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-28319 - curl: use after free in SSH sha256 fingerprint check
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-38039 - curl: out of heap memory issue due to missing limit on header quantity
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-43552 - curl: Use-after-free triggered by an HTTP proxy deny response
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-23915 - curl: HSTS amnesia with --parallel
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-23916 - curl: HTTP multi-header compression denial of service
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27535 - curl: FTP too eager connection reuse
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27536 - curl: GSS delegation too eager connection re-use
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27537 - curl: HSTS double-free
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27538 - curl: SSH connection too eager reuse still
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-28320 - curl: siglongjmp race condition may lead to crash
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-28321 - curl: IDN wildcard match may lead to Improper Cerificate Validation
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-46218 - curl: information disclosure by exploiting a mixed case flaw
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-46219 - curl: excessively long file name may lead to unknown HSTS status
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2022-35252 - curl: Incorrect handling of control code characters in cookies
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2023-28322 - curl: more POST-after-PUT confusion
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2023-38546 - curl: cookie injection with none file
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-36109 - moby: supplementary groups mishandling
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-39253 - git: exposure of sensitive information to a malicious actor
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-36109 - moby: supplementary groups mishandling
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-39253 - git: exposure of sensitive information to a malicious actor
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-36109 - moby: supplementary groups mishandling
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-39253 - git: exposure of sensitive information to a malicious actor
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-40674 - expat: a use-after-free in the doContent function in xmlparse.c
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-43680 - expat: use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-52425 - expat: parsing large tokens can trigger a denial of service
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2024-28757 - expat: XML Entity Expansion
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-52426 - expat: recursive XML entity expansion vulnerability
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2022-23521 - git: gitattributes parsing integer overflow
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2022-41903 - git: Heap overflow in `git archive`, `git log --format` leading to RCE
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-39260 - git: git shell function that splits command arguments can lead to arbitrary heap writes.
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-23946 - git: git apply: a path outside the working tree can be overwritten with crafted input
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-25652 - git: by feeding specially crafted input to `git apply --reject`, a path outside the working tree can be overwritten with partially controlled contents
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-29007 - git: arbitrary configuration injection when renaming or deleting a section from a configuration file
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-39253 - git: exposure of sensitive information to a malicious actor
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-22490 - git: data exfiltration with maliciously crafted repository
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2023-25815 - git: malicious placement of crafted messages when git was compiled with runtime prefix
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-0361 - gnutls: timing side-channel in the TLS RSA key exchange code
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-2603 - libcap: Integer Overflow in _libcap_strdup()
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2023-2602 - libcap: Memory Leak on pthread_create() Error
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-4450 - openssl: double free after calling PEM_read_bio_ex
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-0215 - openssl: use-after-free following BIO_new_NDEF
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-0286 - openssl: X.400 address type confusion in X.509 GeneralName
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-0464 - openssl: Denial of service by excessive resource usage in verifying X509 policy constraints
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-4304 - openssl: timing attack in RSA Decryption implementation
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-0465 - openssl: Invalid certificate policies in leaf certificates are silently ignored
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-2650 - openssl: Possible DoS translating ASN.1 object identifiers
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-3446 - openssl: Excessive time spent checking DH keys and parameters
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-3817 - OpenSSL: Excessive time spent checking DH q parameter value
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-5678 - openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2022-32221 - curl: POST following PUT confusion
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-23914 - curl: HSTS ignored on multiple requests
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-38545 - curl: heap based buffer overflow in the SOCKS5 proxy handshake
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-42915 - curl: HTTP proxy double-free
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-42916 - curl: HSTS bypass via IDN
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-43551 - curl: HSTS bypass via IDN
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-27533 - curl: TELNET option IAC injection
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-27534 - curl: SFTP path ~ resolving discrepancy
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-28319 - curl: use after free in SSH sha256 fingerprint check
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-38039 - curl: out of heap memory issue due to missing limit on header quantity
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-43552 - curl: Use-after-free triggered by an HTTP proxy deny response
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-23915 - curl: HSTS amnesia with --parallel
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-23916 - curl: HTTP multi-header compression denial of service
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27535 - curl: FTP too eager connection reuse
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27536 - curl: GSS delegation too eager connection re-use
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27537 - curl: HSTS double-free
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-27538 - curl: SSH connection too eager reuse still
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-28320 - curl: siglongjmp race condition may lead to crash
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-28321 - curl: IDN wildcard match may lead to Improper Cerificate Validation
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-46218 - curl: information disclosure by exploiting a mixed case flaw
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-46219 - curl: excessively long file name may lead to unknown HSTS status
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2022-35252 - curl: Incorrect handling of control code characters in cookies
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2023-28322 - curl: more POST-after-PUT confusion
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[LOW] CVE-2023-38546 - curl: cookie injection with none file
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2022-3515 - libksba: integer overflow may lead to remote code execution
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2022-47629 - libksba: integer overflow to code execution
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-4450 - openssl: double free after calling PEM_read_bio_ex
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-0215 - openssl: use-after-free following BIO_new_NDEF
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-0286 - openssl: X.400 address type confusion in X.509 GeneralName
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-0464 - openssl: Denial of service by excessive resource usage in verifying X509 policy constraints
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2022-4304 - openssl: timing attack in RSA Decryption implementation
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-0465 - openssl: Invalid certificate policies in leaf certificates are silently ignored
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-2650 - openssl: Possible DoS translating ASN.1 object identifiers
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-3446 - openssl: Excessive time spent checking DH keys and parameters
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-3817 - OpenSSL: Excessive time spent checking DH q parameter value
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-5678 - openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2021-46848 - libtasn1: Out-of-bound access in ETYPE_OK
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2025-26519 - musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2025-26519 - musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-29491 - ncurses: Local users can trigger security-relevant memory corruption via malformed data
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-29491 - ncurses: Local users can trigger security-relevant memory corruption via malformed data
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-35945 - envoy: HTTP/2 memory leak in nghttp2 codec
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-44487 - HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-28531 - openssh: smartcard keys to ssh-agent without the intended per-hop destination constraints.
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-38408 - openssh: Remote code execution in ssh-agent PKCS#11 support
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-48795 - ssh: Prefix truncation attack on Binary Packet Protocol (BPP)
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-51384 - openssh: destination constraints only apply to first PKCS#11 key
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-51385 - openssh: potential command injection via shell metacharacters
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-28531 - openssh: smartcard keys to ssh-agent without the intended per-hop destination constraints.
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-38408 - openssh: Remote code execution in ssh-agent PKCS#11 support
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-48795 - ssh: Prefix truncation attack on Binary Packet Protocol (BPP)
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-51384 - openssh: destination constraints only apply to first PKCS#11 key
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-51385 - openssh: potential command injection via shell metacharacters
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-28531 - openssh: smartcard keys to ssh-agent without the intended per-hop destination constraints.
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[CRITICAL] CVE-2023-38408 - openssh: Remote code execution in ssh-agent PKCS#11 support
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-48795 - ssh: Prefix truncation attack on Binary Packet Protocol (BPP)
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-51384 - openssh: destination constraints only apply to first PKCS#11 key
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-51385 - openssh: potential command injection via shell metacharacters
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2022-41409 - pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[HIGH] CVE-2023-7104 - sqlite: heap-buffer-overflow at sessionfuzz
+jenkinsci/blueocean:latest (alpine 3.16.2),1,[MEDIUM] CVE-2023-42366 - busybox: A heap-buffer-overflow
+
+
+Java,1,[HIGH] CVE-2025-52999 - com.fasterxml.jackson.core/jackson-core: jackson-core Potential StackoverflowError
+Java,1,[MEDIUM] GHSA-72hv-8253-57qq - jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition
+Java,1,[HIGH] CVE-2022-42003 - jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+Java,1,[HIGH] CVE-2022-42004 - jackson-databind: use of deeply nested arrays
+Java,1,[HIGH] CVE-2025-48734 - commons-beanutils: Apache Commons BeanUtils: PropertyUtilsBean does not suppresses an enum's declaredClass property by default
+Java,1,[HIGH] CVE-2024-47554 - apache-commons-io: Possible denial of service attack on untrusted input to XmlStreamReader
+Java,1,[MEDIUM] CVE-2025-48924 - commons-lang/commons-lang: org.apache.commons/commons-lang3: Uncontrolled Recursion vulnerability in Apache Commons Lang
+Java,1,[HIGH] CVE-2022-45688 - json stack overflow vulnerability
+Java,1,[HIGH] CVE-2023-5072 - JSON-java: parser confusion leads to OOM
+Java,1,[HIGH] CVE-2022-1471 - SnakeYaml: Constructor Deserialization Remote Code Execution
+Java,1,[HIGH] CVE-2022-25857 - snakeyaml: Denial of Service due to missing nested depth limitation for collections
+Java,1,[MEDIUM] CVE-2022-38749 - snakeyaml: Uncaught exception in org.yaml.snakeyaml.composer.Composer.composeSequenceNode
+Java,1,[MEDIUM] CVE-2022-38750 - snakeyaml: Uncaught exception in org.yaml.snakeyaml.constructor.BaseConstructor.constructObject
+Java,1,[MEDIUM] CVE-2022-38751 - snakeyaml: Uncaught exception in java.base/java.util.regex.Pattern$Ques.match
+Java,1,[MEDIUM] CVE-2022-38752 - snakeyaml: Uncaught exception in java.base/java.util.ArrayList.hashCode
+Java,1,[MEDIUM] CVE-2022-41854 - dev-java/snakeyaml: DoS via stack overflow
+
+
