@@ -75,7 +75,6 @@ When the pipeline executes, it generates a summary in the console and archives d
 
 > **Performance Note:** The pipeline is configured to bypass the Java DB update during the scan loop (`--skip-java-db-update`) to save bandwidth and reduce build times, utilizing the pre-synchronized local cache.
 
----
 
 ## 📂 Project Structure
 
